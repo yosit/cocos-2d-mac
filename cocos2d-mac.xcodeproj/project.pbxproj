@@ -463,7 +463,6 @@
 		E05053FB122D5AE6005B74CB /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E663D121CA00A001A484F /* libcocos2d.a */; };
 		E05053FC122D5AE6005B74CB /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E6A3D121EDCD3001A484F /* ApplicationServices.framework */; };
 		E05053FD122D5AE6005B74CB /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9256D1224207200EF2362 /* libz.dylib */; };
-		E0505406122D5B58005B74CB /* RenderTextureTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E0505405122D5B58005B74CB /* RenderTextureTest.m */; };
 		E056C614134FF4BE001C3DFD /* chipmunk.h in Headers */ = {isa = PBXBuildFile; fileRef = E056C5BF134FF4BE001C3DFD /* chipmunk.h */; };
 		E056C615134FF4BE001C3DFD /* chipmunk_ffi.h in Headers */ = {isa = PBXBuildFile; fileRef = E056C5C0134FF4BE001C3DFD /* chipmunk_ffi.h */; };
 		E056C616134FF4BE001C3DFD /* chipmunk_private.h in Headers */ = {isa = PBXBuildFile; fileRef = E056C5C1134FF4BE001C3DFD /* chipmunk_private.h */; };
@@ -3733,8 +3732,6 @@
 		E036A79C121B5C720037C5C6 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		E036A79E121B5C870037C5C6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E0505401122D5AE6005B74CB /* RenderTextureTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RenderTextureTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0505404122D5B58005B74CB /* RenderTextureTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RenderTextureTest.h; path = tests/RenderTextureTest.h; sourceTree = "<group>"; };
-		E0505405122D5B58005B74CB /* RenderTextureTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RenderTextureTest.m; path = tests/RenderTextureTest.m; sourceTree = "<group>"; };
 		E056C56F134FF436001C3DFD /* libCocosDenshion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocosDenshion.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E056C581134FF459001C3DFD /* libChipmunk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libChipmunk.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E056C58A134FF46C001C3DFD /* libBox2D.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBox2D.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -4970,8 +4967,6 @@
 				E0B92DD31226A123003FF67E /* ParallaxTest.m */,
 				E026451C12A59E07009D04FE /* ParticleTest.h */,
 				E026451D12A59E07009D04FE /* ParticleTest.m */,
-				E0505404122D5B58005B74CB /* RenderTextureTest.h */,
-				E0505405122D5B58005B74CB /* RenderTextureTest.m */,
 				E076F21D12268AF100DE0DA2 /* SpriteTest.h */,
 				E076F21E12268AF100DE0DA2 /* SpriteTest.m */,
 				E076EDAE1225FE2E00DE0DA2 /* Texture2dTest.h */,
@@ -9294,7 +9289,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E05053F5122D5AE6005B74CB /* main.m in Sources */,
-				E0505406122D5B58005B74CB /* RenderTextureTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

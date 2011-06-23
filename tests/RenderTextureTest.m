@@ -443,9 +443,9 @@ Class restartAction()
 {
 	return @"Touch screen. It should be green";
 }
-- (void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+- (void)ccTouchesBegan:(NSSet *)touches withEvent:(NSEvent *)event
 {
-	for( UITouch *touch in touches ) {
+	for( NSTouch *touch in touches ) {
 		CGPoint location = [touch locationInView: [touch view]];
 		
 		location = [[CCDirector sharedDirector] convertToGL: location];
